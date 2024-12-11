@@ -156,10 +156,8 @@ face_detected_again_counter = 0
 
 # Initialize a logger
 logger = logging.getLogger("Logger")
-#log_filename = "School\\MSc\\2_Felev\\Onlab\\pfld_106_face_landmarks-master\\logs\\" + datetime.now().strftime("%Y-%m-%d_%H:%M:%S") + ".log"
 log_filename = "logs\\" + datetime.now().strftime("%Y-%m-%d_%H:%M:%S") + ".log"
 date = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-#logging.basicConfig(filename=f"c:\School\MSc\\2_Felev\Onlab\pfld_106_face_landmarks-master\logs\{date}.log", encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(message)s')
 logging.basicConfig(filename=f"logs\{date}.log", encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(message)s')
 # The path to the video to be analysed
 # ----------------------------------------------------------------------------------------------------------------------------------------
